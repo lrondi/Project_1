@@ -1,6 +1,6 @@
 # Project_1
 
-This is a very simplified version of an analysis of RNA sequencing technique performance. We took some liberties (because of lack of time) to avoid some required data manipulation.
+This is a very simplified version of an analysis of an RNA sequencing technique performance. We took some liberties (because of lack of time) to avoid some required data manipulation.
 
 The goal of this project was to evaluate the performance of a new RNA sequencing technique called DriverMap, by comparing its overall ability to pick up genes with different levels of expression, and also how good the technique is at picking up highly expressing genes.
 
