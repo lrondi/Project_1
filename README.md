@@ -2,7 +2,7 @@
 
 This is a very simplified version of an analysis of an RNA sequencing technique performance, done as a project for the Data Analytics bootcamp from UC Berkeley. We took some liberties (because of lack of time) to avoid some required data manipulation.
 
-The goal of this project was to evaluate the performance of a new RNA sequencing technique called DriverMap, by comparing its overall ability to pick up genes with different levels of expression, and also how good the technique is at picking up highly expressing genes.
+The goal of this project was to evaluate the performance of a new RNA sequencing technique called DriverMap, by comparing its overall ability to pick up genes with different levels of expression with an already existing technique, and also to calculate how good the technique is at picking up highly expressing genes.
 
 We received 4 csv files from employer. They comprise datasets with results of RNA sequencing, for two different techniques: RNAseq and DriverMap (DM), using 10 different libraries of primers. Two datasets have the count of reads for each of 19k genes, as a result of aligning the sequence obtained by the sequencing techniques to a database of genes. That alignment was further manipulated to get to the count of reads, which is a measure of how much that gene is expressing in that particular tissue. The other two csv files contain the number of transcripts per millon kilobases of DNA (TPM), which is a normalized measure that makes comparison between samples possible. With these 2 datasets we calculated the log base 2 of TPM counts, to further analyze the difference between techniques in a simpler way (this is ussualy done with biological data).
 
