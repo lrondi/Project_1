@@ -21,9 +21,9 @@ We wanted to focus on the high expression genes and compare how the two techniqu
 
 Our results show:
 
-1- Both techniques follow the same pattern of high count of no read genes and low expression genes. Both techniques pick up few high expressing genes. Their pattern shows correlation not high enough to say they are replicates.
-2-  This is further confirmed by seeing that both techniques show significant difference in their mean of TPM. We can say they are different (not working as replicates).
-3- DM looks better at picking up high expressing genes, but it does it at less counts per gene than RNAseq in 5 of the 10 libraries. It would depend on the aim of the study for  what technique to choose.
-4- The difference in high expressing genes picked up is always more than 50 percent, and the difference in TPMs between both techniques is significant.
+1. Both techniques follow the same pattern of high count of no read genes and low expression genes. Both techniques pick up few high expressing genes. Their pattern shows correlation not high enough to say they are replicates. 
+2. This is further confirmed by seeing that both techniques show significant difference in their mean of TPM. We can say they are different (not working as replicates). 
+3. DM looks better at picking up high expressing genes, but it does it at less counts per gene than RNAseq in 5 of the 10 libraries. It would depend on the aim of the study for  what technique to choose. 
+4. The difference in high expressing genes picked up is always more than 50 percent, and the difference in TPMs between both techniques is significant.
 
 We conclude that DM technique is equivalent and even better than RNAseq, but only for some sets of genes (low expressing and high expressing). If we were required to choose one of the two, it would be important to think about the goal of the study that we wanted to do to pick one.
