@@ -13,7 +13,7 @@ We investigated how well DM was at picking up genes by doing the following plots
 - To further visualize the density of points in the dataset, we did a KDE plot.
 - We then did boxplots of each pair of libraries and techniques, and calculated the difference using a t-test.
 
-We wanted to focus on the high expression genes and compare how the two techniques worked. In order to do this, we binned in the data into no-read genes, low, medium and high expression ones, using the mean+stdev as cut off point for the high expression genes. We visualized the difference by doing
+We wanted to focus on the high expression genes and compare how the two techniques worked. In order to do this, we binned in the data into no-read genes, low, medium and high expression ones, using the mean+stdev as cut off point for the high expression genes. We visualized the difference by doing:
 - Heatmaps for the bins.
 - Bar plots of each pair of libraries and techniques.
 - Bar plot of percentage of difference in the number of genes picked up by each technique, and calculating the difference with a chi square test.
